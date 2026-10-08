@@ -43,7 +43,7 @@ Set server environment variables (never put an API key in browser code or GitHub
 - `AI_DAILY_LIMIT`: defaults to 100 requests per server process per UTC day.
 - `PORT`: defaults to 8787.
 
-Deploy `server.mjs` to a Node-capable host, set the above variables in the host’s secret settings, then set `coachEndpoint` in `config.js` to the HTTPS `/api/coach` URL. Alternatively, users can enter a trusted endpoint in the AI connection panel.
+Deploy `server.mjs` to a Node-capable host, set the above variables in the host’s secret settings, then set `coachEndpoint` in `config.js` to the HTTPS `/api/coach` URL. The service URL is configured by the site owner and is never requested from presenters. Until configured, the interface clearly marks AI as unavailable and disables generation.
 
 The server requires an access code, enforces an origin allowlist, a 40 KB request limit, a 10-request/hour socket-IP limit and a process-wide daily limit. It sends `store:false` to OpenAI and does not log slide text or store requests. `store:false` does not mean the provider has zero retention; see OpenAI’s data policy.
 
