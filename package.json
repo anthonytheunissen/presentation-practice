@@ -1,0 +1,1 @@
+{"name":"presentation-practice","version":"1.0.0","private":true,"description":"Presentation rehearsal with local uploads and optional AI coaching","scripts":{"start":"node server.mjs","check":"node --check app.js && node --check server.mjs"},"type":"module","engines":{"node":">=22"},"license":"MIT"}
