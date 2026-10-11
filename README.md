@@ -4,7 +4,7 @@ A presentation rehearsal workspace by Anthony Theunissen.
 
 **Live tool:** https://anthonytheunissen.github.io/presentation-practice/
 
-Upload a PDF or PowerPoint, view slides beside a practice coach, write speaking cues and transitions, rehearse questions, and time your delivery. Choose a speaking route by excluding optional or reference slides. Save and reload a JSON practice plan.
+Upload a PDF or PowerPoint, view slides beside a practice coach, write speaking cues and transitions, rehearse questions, and time your delivery. Choose a speaking route by excluding optional or reference slides. Save and reload a JSON practice plan. Listen to cues or imported notes with a selectable browser voice and automatic slide following. Use slide-message and audience-question flashcards with revealable anchors.
 
 ## Uploads and privacy
 
